@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Gabriel Flores</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+    <h1>Gabriel Flores</h1>
+    <nav>
+        <a class="menu" href="#sobre-mi">Sobre mi</a>
+        <a class="menu" href="#habilidades">Habilidades</a>
+        <a class="menu" href="#proyectos">Proyectos</a>
+        <a class="menu" href="#tecnologias">Tecnologias</a>
+        <a class="menu" href="#contacto">Contacto</a>
+    </nav>
+ </header>
+    <main>
+        <section id="inicio">
+        <p>Bienvenido a mi portfolio en donde encontraras informacion acerca de mi,
+            de mis proyectos y de las tecnologias en las que trabajo.
+        </p>
+        </section>
+
+        <section id="sobre-mi">
+            <h2>Sobre mi</h2>
+            <p>Actualmente soy estudiante avanzado de la carrera <strong>Tecnicatura Universitaria en Programacion</strong>
+            y de la <strong>Licenciatura en Analisis de Sistemas</strong>
+            </p>
+        </section>
+
+        <h2>Habilidades</h2>
+        <section id="habilidades">
+
+            <article class="hab">
+                <h3>Desarrollo Web</h3>
+                <img src="img/codeweb1.png" alt="web-dev">
+                <p>Desarrollo de paginas o aplicaciones web mediante Html, Css y Javascript</p>
+            </article>
+
+             <article class="hab">
+                <h3>Desarrollo Mobile</h3>
+                <img src="img/mobiledev.png" alt="mobile-dev">
+                <p>Desarrollo de aplicaciones moviles con Flutter y Dart</p>
+            </article>
+
+             <article class="hab">
+                <h3>Desarrollo de VideoJuegos</h3>
+                <img src="img/gamedev.png" alt="game-dev">
+                <p>Desarrollo de videojuegos con Unity y C#</p>
+            </article>
+
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <article class="proy">
+                <h3>Este mismo portfolio - 2026</h3>
+                <p>Pagina web de mi porfolio para el curso de introduccion al desarrollo web.
+                    Utilizando Html, Css y Javascript</p>
+            </article>
+
+            <article class="proy">
+                <h3>Aplicacion Movil - Becas Unsa - 2026</h3>
+                <p>Aplicacion movil para la gestion de becas de la unsa para la materia 
+                    introduccion al desarrollo movil. Con las tecnologias de Dart y Flutter</p>
+                    <a class="menu" href="https://github.com/Gabo99x/app-becas-unsa-frontend">Ver proyecto</a>
+            </article>
+
+             <article class="proy">
+                <h3>Aleph - Lenguaje de programacion - 2025</h3>
+                <p>Lenguaje de programacion interpretado capaz de reconocer notaciones matematicas 
+                    como conjuntos y listas. Realizado en la materia Teoria de la computacion II. 
+                    Con el lenguaje de programacion C y Flex y Bison</p>
+                    <p>Proximamente disponible en Github</p>
+            </article>
+
+            <article class="proy">
+                <h3>Plugin Krita - Generador de paleta de colores - 2025</h3>
+                <p>Generador de paleta de colores para el programa de dibujos y edicion Krita. Realizado
+                    para la materia Introduccion al desarrollo de software libre. Este plugin se programo en Python
+                </p>
+                <a class="menu" href="https://github.com/Gabo99x/Plugin-Krita-Paleta-Colores">Ver proyecto</a>
+            </article>
+
+            <article class="proy">
+                <h3>Plugin Krita - Pixel art - 2025</h3>
+                <p>A partir de una foto este plugin lo transforma en estilo pixel art. Realizado
+                    para la materia Introduccion al desarrollo de software libre.Este plugin se programo en Python</p>
+                    <a class="menu" href="https://github.com/MartinMigue/Plugin_Krita_PixelArt">Ver proyecto</a>
+            </article>
+
+            <article class="proy">
+                <h3>Another Planet - 2024</h3>
+                <p>
+                    VideoJuego platformer en 2d, que cuenta la historia de un astronauta que viaja por error a un planeta 
+                    desconocido. Realizado para la materia introduccion al desarrollo de video juegos 
+                    con el motor grafico Unity y C# para los scripts
+                </p>
+                <p>Proximamente disponible en Github</p>
+            </article>
+
+            <article class="proy">
+                <h3>Pozo Amargo - 2022</h3>
+                <p>
+                    Participacion de la Global Game Jam 2022 realizando un videojuego platformer 2d en equipo, Colaborando con Unity y C#   
+                </p>
+            </article>
+
+             <article class="proy">
+                <h3>HomeMade Bread - 2021</h3>
+                <p>
+                    Participacion de la Global Game Jam 2021 realizando un videojuego platformer 2d en equipo, Colaborando con Unity y C#   
+                </p>
+            </article>
+
+        </section>
+
+        <section id="tecnologias">
+            <h2>Tecnologias</h2>
+            <ul id="tecn">
+                <li class="item">Flutter</li>
+                <li class="item">Dart</li>
+                <li class="item">Unity con C#</li>
+                <li class="item">Python</li>
+                <li class="item">Html</li>
+                <li class="item">Css</li>
+                <li class="item">Javascript</li>
+                <li class="item">Git</li>
+                <li class="item">Github</li>
+                <li class="item">SQL</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Completa este formulario para mas informacion</p>
+            <form id="formulario">
+                <fieldset id="dato">
+                    <legend>Tus datos</legend>
+                    <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                    </div>
+                    <div class="campo">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" >
+                    </div>
+                    <div class="campo">
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="+54 ..." >
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Mensaje</legend>
+                    <div class="campo">
+                    <label for="motivo">Motivo</label>
+                    <select name="motivo" id="motivo">
+                        <option value="trabajo">Trabajo</option>
+                        <option value="Colaboracion">Colaboracion</option>
+                        <option value="Consulta">Consulta</option>
+                    </select>
+                    </div>
+                    <div class="campo">
+                    <label for="mensaje">Mensaje</label>
+                    <br>
+                    <textarea name="mensaje" id="mensaje" rows="10" cols="40" placeholder="Escribe tu mensaje"></textarea>
+                    </div>
+                </fieldset>
+                <p id="mensaje-salida"></p>
+                <button type="submit" id="boton-form">Enviar formulario</button>
+                <button type="reset" id="boton-reset">Limpiar campos</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Pagina realizada por Gabriel Flores. Todos los derechos reservados </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

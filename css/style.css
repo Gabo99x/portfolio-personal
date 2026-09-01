@@ -1,0 +1,170 @@
+:root{
+    --color-fondo : #141414;
+    --color-principal:#cfcfcf ;
+    --color-secundario: #4444;
+    --color-resaltante: #79ed91;
+    --color-resaltante2: #d6d6d6;
+}
+
+body{
+    background-color: var(--color-fondo);
+    color:var(--color-principal);
+    font-family: monospace, system-ui;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1{
+    color: var(--color-resaltante);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#inicio{
+    background-color: var(--color-resaltante);
+    padding: 100px;
+    color:#141414;
+    text-align: center;
+}
+
+.menu{
+    color: var(--color-principal);
+}
+
+.menu:hover{
+    color: var(--color-resaltante)
+}
+
+#proyectos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.proy{
+    color: var(--color-principal);
+    background-color: var(--color-secundario);
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #979797;
+}
+
+.proy h3{
+    color: var(--color-resaltante);
+}
+
+#habilidades{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.hab{
+    background-color: var(--color-secundario);
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #979797;
+}
+
+.hab h3{
+    color: var(--color-resaltante);
+}
+
+#tecnologias{
+    background-color: var(--color-resaltante);
+    padding: 50px;
+    margin-top: 10px;
+    color: #141414;
+    text-align: center;
+}
+#tecn{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+#contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#formulario{
+    background-color: var(--color-secundario);
+    width: 100%;
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+#boton-form{
+    background-color: var(--color-resaltante);
+}
+
+#boton-form:hover{
+    background-color:#5eb870;
+}
+
+#boton-form:active{
+    scale: 0.99;
+}
+
+#boton-reset:active{
+    scale: 0.99;
+}
+
+footer{
+    background-color: var(--color-resaltante);
+    padding: 5px;
+    color: #141414;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media(max-width:768px){
+
+    header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
+    nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    #habilidades{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
